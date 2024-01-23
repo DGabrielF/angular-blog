@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
 
-  background-color: #ffffff05;
+  background-color: #ffffff20;
   border: 2px solid #ffffff02;
   border-radius: 10px;
 
@@ -26,4 +26,6 @@
 
 .big-card__photo > img {
   width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
 }

@@ -1,11 +1,20 @@
 .container__articles {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 1vw;
+}
+
+.articles__main {
+  height: 100%;
+  width: 50vw;
 }
 
 .articles__others {
+  max-height: 86vh;
   display: flex;
   flex-direction: column;
-  gap: .5vh;
+  gap: .75vh;
+
+  overflow: auto;
 }
