@@ -1,0 +1,29 @@
+.container__big-card {
+  padding: 1vh;
+  width: 100%;
+  height: 100%;
+
+  background-color: #ffffff05;
+  border: 2px solid #ffffff02;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 1vh;
+}
+
+.big-card__title > h2 > a {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.big-card__description p > a {
+  color: #ffffffaa;
+  font-size: 15px;
+}
+
+.big-card__photo > img {
+  width: 100%;
+}

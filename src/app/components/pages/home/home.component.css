@@ -1,0 +1,11 @@
+.container__articles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles__others {
+  display: flex;
+  flex-direction: column;
+  gap: .5vh;
+}
