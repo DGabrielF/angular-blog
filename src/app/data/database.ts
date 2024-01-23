@@ -77,7 +77,7 @@ export const data = {
     {name: "inglês", level: "A2"},
   ],
   contacts: [
-    {name: "Telefone", number: "(71) 99321-0108"},
+    {name: "Telefone", text: "(71) 99321-0108"},
     {name: "GitHub", link: "http://github.com/DGabrielF", text: "/DGabrielF"},
     {name: "Linkedin", link: "https://www.linkedin.com/in/danilo-ferreira-092457127", text: "/danilo-ferreira-092457127"},
     {name: "Facebook", link: "https://www.facebook.com/danilo.ferreira.186590", text: "/danilo.ferreira.186590"},
@@ -492,7 +492,8 @@ export const data = {
       name: "PokeCard Game",
       link: "https://dgabrielf.github.io/pokemon-card-game/",
       image: "https://dgabrielf.github.io/curriculum/static/media/pokeCardGame.40da3b33a10ae62d6ab7.jpg",
-      description: "Este magnifico jogo de cartas envolve a emoção de duelos com a fixação em colecionar cartas. Com sistemas de compra de cartas, escolha de cartas para duelar, duelos, ranqueamento e pokedex."
+      description: "Este magnifico jogo de cartas envolve a emoção de duelos com a fixação em colecionar cartas. Com sistemas de compra de cartas, escolha de cartas para duelar, duelos e ranqueamento.",
+      languages: ["JavaScript", "CSS", "HTML"]
     },
     {
       index: 1,
@@ -500,7 +501,8 @@ export const data = {
       name: "Simulador de Piano",
       link: "https://dgabrielf.github.io/piano-simulator/",
       image: "https://dgabrielf.github.io/curriculum/static/media/pianoSimulator.6bb6eab941f45b11c3b0.png",
-      description: "Este simulador é uma forma de brincar com os sons e talvez treinar seu ouvido e dedos."
+      description: "Este simulador é uma forma de brincar com os sons e talvez treinar seu ouvido e dedos.",
+      languages: ["JavaScript", "CSS", "HTML"]
     },
     {
       index: 2,
@@ -508,7 +510,8 @@ export const data = {
       name: "Detona Ralph",
       link: "https://dgabrielf.github.io/wreck-it-ralph/",
       image: "https://dgabrielf.github.io/curriculum/static/media/wreckItRalph.63812023697ef85e26d3.png",
-      description: "Este jogo viciante testa sua agilidade e reflexos, em uma competição com os jogadores de cliques mais rápidos da história."
+      description: "Este jogo viciante testa sua agilidade e reflexos, em uma competição com os jogadores de cliques mais rápidos da história.",
+      languages: ["JavaScript", "CSS", "HTML"]
     },
     {
       index: 3,
@@ -516,7 +519,8 @@ export const data = {
       name: "Jogo da Memória",
       link: "https://dgabrielf.github.io/memory-game/",
       image: "https://dgabrielf.github.io/curriculum/static/media/brain.59484f93859b4fc5f2c6.jpg",
-      description: "Você se lembra de como chegou até aqui? Se não lembra, venha exercitar sua memória. Mas se você tem uma memória de elefante, venha escrever seu nome na nossa história."
+      description: "Você se lembra de como chegou até aqui? Se não lembra, venha exercitar sua memória. Mas se você tem uma memória de elefante, venha escrever seu nome na nossa história.",
+      languages: ["JavaScript", "CSS", "HTML"]
     },
     {
       index: 4,
@@ -525,6 +529,7 @@ export const data = {
       link: "https://dgabrielf.github.io/math-helper/",
       image: "https://dgabrielf.github.io/curriculum/static/media/abaco.62f056984f6b1e5438e7.jpg",
       description: "Auxiliar para resolução de equações e sistemas relacionados.",
+      languages: ["JavaScript", "CSS", "HTML"]
     },
     {
       index: 5,
@@ -532,7 +537,8 @@ export const data = {
       name: "Pokedex",
       link: "https://dgabrielf.github.io/pokedex/",
       image: "https://dgabrielf.github.io/curriculum/static/media/pokedex-color.31e1446c8e9d2fe8b25f47888a6009b0.svg",
-      description: "Projeto desenvolvido durante um Bootcamp da DIO."
+      description: "Projeto desenvolvido durante um Bootcamp da DIO.",
+      languages: ["JavaScript", "CSS", "HTML"]
     }
   ]
 }

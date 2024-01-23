@@ -14,6 +14,8 @@ export class ContentComponent implements OnInit {
   contentTitle:string="";
   @Input()
   contentDescription:string="";
+  @Input()
+  externalLink:string="";
 
   private id:string|null = "0";
 
@@ -33,6 +35,7 @@ export class ContentComponent implements OnInit {
       this.photoCover = result.image;
       this.contentTitle = result.name;
       this.contentDescription = result.description;
+      this.externalLink = result.link;
     }
   }
 
